@@ -1,14 +1,14 @@
-# include <iostream>
-# include <algorithm>
+# include <bits/stdc++.h>
+typedef long long ll;
 using namespace std;
 int main(){
-    int n;
+    ll n;
     cin >> n;
-    int a[n];
-    for(int i = 0; i < n; i++)
+    ll a[n];
+    for(ll i = 0; i < n; i++)
         cin >> a[i];
     sort(a, a + n);
-    for(int i = 0; i < n; i++)
+    for(ll i = 0; i < n; i++)
         cout << a[i] << " ";
     return 0;
 }
